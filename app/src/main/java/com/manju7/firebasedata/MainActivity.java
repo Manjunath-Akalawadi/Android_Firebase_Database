@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        mRootref = new Firebase("https://fir-data-be831.firebaseio.com/Users");
+        mRootref = new Firebase(" enter your database url ");
 
         firstText=(EditText) findViewById(R.id.firstName);
         lastText=(EditText) findViewById(R.id.lastName);
